@@ -85,7 +85,7 @@ curl http://localhost:3500/eth/v1/node/syncing
 
 ## 🔗 RPC Access (Replace with your VPS IP)
 
-- Execution RPC: `http://<vps-ip>:8545`
-- Consensus RPC: `http://<vps-ip>:3500`
+- Execution RPC (Sepolia): `http://<vps-ip>:8545`
+- Consensus RPC(Beacon): `http://<vps-ip>:3500`
 
 Note: Use public IP; `localhost` won’t work due to Docker networking.
